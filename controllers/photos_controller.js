@@ -106,7 +106,7 @@ function add_direct_unsigned(req, res) {
       return cloudinary.api.create_upload_preset({
         unsigned: true,
         name: preset_name,
-        folder: "10x",
+        folder: "mayur",
         return_delete_token: true
       });
     })
